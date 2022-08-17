@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  body  {
+    font-family: sans-serif;
+  }
+  .hero{
+    background-image: url("assets/bg.png");
+    background-color: #cccccc;
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 75px;
+  }
+  .navbar{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    float: left;
+  }
+  .list-item-1{
+    border-left: 1px solid white;
+    height: 40px;
+    float: left;
+    padding: 0px 5px;
+  }
+  .grow-list{
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none;
+    float: initial;
+    float: left;
+  }
+  .list-item {
+    display: inline-block;
+    color: white;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    font-size: small;
+  }
+  .list-item:hover{
+    color: #BA0CC5;
+    cursor: pointer;
+  }
+  .logo{
+    float: left;
+    width: 90px;
+    padding: 20px;
+    padding-left: 40px;
+  }
+  
+  .button-small{
+    background-color: #BA0CC5;
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+  .button-small:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .btn{
+      float: right;
+      padding: 15px 20px;
+      margin-right: 30px;
+  }
+  .navbar-container{
+      padding: 20px;
+  }
+  .hero-heading{
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .hero-description{
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-family: sans-serif;
+  }
+  .button-large{
+    background-color: #BA0CC5;
+    border: none;
+    color: white;
+    width: 235px;
+    height: 45px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .button-large:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  .list-item-2{
+    display: inline;
+    padding: 0px;
+  }
+  .arrow{
+    margin-left: -20px;
+    margin-bottom: -5px;
+    width: 10px;
+  }
+  .arrow:hover{
+    background-color: #BA0CC5;
+  }
+  .list-item-3{
+    padding-left: 40px;
+  }
